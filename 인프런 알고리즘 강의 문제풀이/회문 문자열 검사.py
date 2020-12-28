@@ -13,3 +13,5 @@ for i in range(n):
         print('YES')
     else:
         print('NO')
+
+# 역순으로 배열하는법 : s==s[::-1]
