@@ -3,7 +3,7 @@ arr = []
 for _ in range(k):
     arr.append(int(input()))
 
-start = 0
+start = 1
 end = max(arr)
 ans = []
 while start <= end:
@@ -22,27 +22,27 @@ while start <= end:
 print(max(ans))
 
 #답
-k,n = map(int,input().split())
-line = []
-res = 0
-largest = 0
-def count(len):
-    cnt=0
-    for x in line:
-        cnt += (x//len)
-    return cnt
-
-for i in range(k):
-    tmp = int(input())
-    line.append(tmp)
-    largest=max(largest,tmp)
-lt = 1
-rt = largest
-while lt <= rt:
-    mid = (lt + rt)//2
-    if count(mid) >= n:
-        res = mid
-        lt = mid + 1
-    else:
-        rt = mid - 1
-print(res)
+# k,n = map(int,input().split())
+# line = []
+# res = 0
+# largest = 0
+# def count(len):
+#     cnt=0
+#     for x in line:
+#         cnt += (x//len)
+#     return cnt
+#
+# for i in range(k):
+#     tmp = int(input())
+#     line.append(tmp)
+#     largest=max(largest,tmp)
+# lt = 1
+# rt = largest
+# while lt <= rt:
+#     mid = (lt + rt)//2
+#     if count(mid) >= n:
+#         res = mid
+#         lt = mid + 1
+#     else:
+#         rt = mid - 1
+# print(res)
