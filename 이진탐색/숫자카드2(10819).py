@@ -25,6 +25,7 @@ m = int(input())
 target_list = list(map(int,input().split()))
 res = []
 card_num = Counter(card_num)
+print(card_num)
 for a in target_list:
     res.append(card_num[a])
 
