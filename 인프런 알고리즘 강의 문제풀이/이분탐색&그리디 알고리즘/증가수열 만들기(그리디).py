@@ -54,12 +54,12 @@ rt = n-1
 last = 0
 res = ""
 tmp = []
-while lt <= rt:
+while lt <= rt:                 # 투포인터
     if a[lt] > last:
         tmp.append((a[lt],'L'))
     if a[rt]>last:
         tmp.append((a[rt],'R'))
-    tmp.sort()
+    tmp.sort()                  # 양 쪽 수가 전부 last 값보다 클 경우 더 작은 수를 택하기 위해서 정렬
     if len(tmp) == 0:
         break
     else:
