@@ -1,13 +1,14 @@
-from bisect import bisect_left
+import bisect
+N = int(input())
+li = list(map(int,input().split()))
+dp = [li[0]]
 
-input()
-A = list(map(int, input().split()))
-dp = []
-
-for i in A:
-    k = bisect_left(dp, i) #자신이 들어갈 위치 k
-    if len(dp) <= k: #i가 가장 큰 숫자라면
-        dp.append(i)
+for i in range(1,N):
+    if li[i] > dp[-1]:
+        dp.append(li[i])
     else:
-        dp[k] = i #자신보다 큰 수 중 최솟값과 대체
+        low = bisect.bisect_left(dp,li[i])
+        dp[low] = li[i]
+print(dp)
 print(len(dp))
+
