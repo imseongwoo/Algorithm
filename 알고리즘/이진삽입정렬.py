@@ -19,7 +19,7 @@ def binary_insertion_sort(a:MutableSequence) -> None:
             if pl > pr:
                 break
 
-        pd = pc + 1 if pl <= pr else pr + 1
+        pd = pc + 1 if pl <= pr else pr + 1         # 1 4 6 5 이면 확인가능
 
         for j in range(i,pd,-1):
             a[j] = a[j-1]
