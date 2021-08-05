@@ -1,4 +1,4 @@
-def DFS(v):
+"""def DFS(v):
     global cnt
     if v==m:
         for i in range(m):
@@ -18,7 +18,7 @@ if __name__=="__main__":
     res = [0]*m
     cnt = 0
     DFS(0)
-    print(cnt)
+    print(cnt)  """
 # 답
 # import sys
 # sys.stdin=open("input.txt", "r")
@@ -40,3 +40,19 @@ if __name__=="__main__":
 #     cnt=0
 #     DFS(0)
 #     print(cnt)
+
+
+#복습
+
+def dfs(l):
+    if l==m:
+
+    else:
+
+
+
+
+
+n,m = map(int,input().split())
+res = list(range(n))
+dfs(0)
