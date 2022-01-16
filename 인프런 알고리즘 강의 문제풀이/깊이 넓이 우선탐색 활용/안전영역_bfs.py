@@ -18,7 +18,7 @@ for a in range(n):          # 최대값 찾기
 
 
 for a in range(maxnum):     # 모든 높이에 대해서 반복
-    height = a + 1
+    height = a              # 비가 안오는 경우도 고려
     q = deque()
     arr2 = deepcopy(arr)       # 2차원 리스트 복사
     cnt = 0
