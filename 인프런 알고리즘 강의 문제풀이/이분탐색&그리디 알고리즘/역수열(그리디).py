@@ -29,3 +29,15 @@ for i in range(n):
             a[i]-=1
 for x in seq:
     print(x,end=' ')
+
+
+
+# index 함수를 이용한 풀이
+
+n = int(input())
+a = list(map(int,input().split()))
+a = a[::-1]
+ans = []
+for x in a:
+    ans.insert(x,n)
+    n-=1
