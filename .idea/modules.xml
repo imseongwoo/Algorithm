@@ -4,10 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/baek_algorithm.iml" filepath="$PROJECT_DIR$/.idea/baek_algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/dfs/.idea/dfs.iml" filepath="$PROJECT_DIR$/dfs/.idea/dfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/그리디/.idea/그리디.iml" filepath="$PROJECT_DIR$/그리디/.idea/그리디.iml" />
       <module fileurl="file://$PROJECT_DIR$/문자열/.idea/문자열.iml" filepath="$PROJECT_DIR$/문자열/.idea/문자열.iml" />
       <module fileurl="file://$PROJECT_DIR$/인프런 알고리즘 강의 문제풀이/.idea/문제풀이.iml" filepath="$PROJECT_DIR$/인프런 알고리즘 강의 문제풀이/.idea/문제풀이.iml" />
+      <module fileurl="file://$PROJECT_DIR$/복습자료/.idea/복습자료.iml" filepath="$PROJECT_DIR$/복습자료/.idea/복습자료.iml" />
       <module fileurl="file://$PROJECT_DIR$/완전탐색/.idea/완전탐색.iml" filepath="$PROJECT_DIR$/완전탐색/.idea/완전탐색.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../바탕 화면/대학/2_2/자료구조/.idea/자료구조.iml" filepath="$PROJECT_DIR$/../../../바탕 화면/대학/2_2/자료구조/.idea/자료구조.iml" />
+      <module fileurl="file://$PROJECT_DIR$/최단거리/.idea/최단거리.iml" filepath="$PROJECT_DIR$/최단거리/.idea/최단거리.iml" />
+      <module fileurl="file://$PROJECT_DIR$/해쉬/.idea/해쉬.iml" filepath="$PROJECT_DIR$/해쉬/.idea/해쉬.iml" />
     </modules>
   </component>
 </project>
