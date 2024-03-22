@@ -37,3 +37,14 @@ if 3 in map.values():
 a = [5, 2, 3, 1, 4]
 a.sort()
 print(a)
+
+# zfill 은 문자열 형태에서 지정한 길이만큼 0을 채워줌
+ex = "1234"
+print(ex.zfill(7))
+
+# rjust는 문자열 형태에서 지정한 길이만큼 지정한 문자열을 채워줌
+ex = "333"
+print(ex.rjust(5,"a"))
+
+# ljust는 문자열 형태에서 지정한 길이만큼 지정한 문자열을 채워줌 기존 문자열을 왼쪽으로 정렬함
+print(ex.ljust(5,"f"))
