@@ -1,9 +1,12 @@
-for t in range(10):
-    count = int(input())
-    height = list(map(int, input().split()))
-
-    for i in range(count):
-        height.sort()
-        height[-1] -= 1
-        height[0] += 1
-    print(f"#{t+1} {max(height) - min(height)}")
+T = 10
+for test_case in range(1, T + 1):
+    N = int(input())
+    lst = list(map(int, input().split()))
+    ans = 100
+    for _ in range(N):
+        lst.sort()
+        lst[0] += 1
+        lst[-1] -= 1
+        if ans > max(lst)-min(lst):
+            ans = max(lst)-min(lst)
+    print(f'#{test_case} {ans}')
