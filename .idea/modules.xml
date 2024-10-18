@@ -16,10 +16,12 @@
       <module fileurl="file://$PROJECT_DIR$/시뮬레이션/.idea/시뮬레이션.iml" filepath="$PROJECT_DIR$/시뮬레이션/.idea/시뮬레이션.iml" />
       <module fileurl="file://$PROJECT_DIR$/완전탐색/.idea/완전탐색.iml" filepath="$PROJECT_DIR$/완전탐색/.idea/완전탐색.iml" />
       <module fileurl="file://$PROJECT_DIR$/우선순위큐/.idea/우선순위큐.iml" filepath="$PROJECT_DIR$/우선순위큐/.idea/우선순위큐.iml" />
+      <module fileurl="file://$PROJECT_DIR$/이진탐색/.idea/이진탐색.iml" filepath="$PROJECT_DIR$/이진탐색/.idea/이진탐색.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../바탕 화면/대학/2_2/자료구조/.idea/자료구조.iml" filepath="$PROJECT_DIR$/../../../바탕 화면/대학/2_2/자료구조/.idea/자료구조.iml" />
       <module fileurl="file://$PROJECT_DIR$/최단거리/.idea/최단거리.iml" filepath="$PROJECT_DIR$/최단거리/.idea/최단거리.iml" />
       <module fileurl="file://$PROJECT_DIR$/코드카타/.idea/코드카타.iml" filepath="$PROJECT_DIR$/코드카타/.idea/코드카타.iml" />
       <module fileurl="file://$PROJECT_DIR$/투포인터/.idea/투포인터.iml" filepath="$PROJECT_DIR$/투포인터/.idea/투포인터.iml" />
+      <module fileurl="file://$PROJECT_DIR$/트리/.idea/트리.iml" filepath="$PROJECT_DIR$/트리/.idea/트리.iml" />
       <module fileurl="file://$PROJECT_DIR$/해쉬/.idea/해쉬.iml" filepath="$PROJECT_DIR$/해쉬/.idea/해쉬.iml" />
     </modules>
   </component>
