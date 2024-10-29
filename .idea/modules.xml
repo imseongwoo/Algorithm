@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/dp/.idea/dp.iml" filepath="$PROJECT_DIR$/dp/.idea/dp.iml" />
       <module fileurl="file://$PROJECT_DIR$/그래프/.idea/그래프.iml" filepath="$PROJECT_DIR$/그래프/.idea/그래프.iml" />
       <module fileurl="file://$PROJECT_DIR$/그리디/.idea/그리디.iml" filepath="$PROJECT_DIR$/그리디/.idea/그리디.iml" />
+      <module fileurl="file://$PROJECT_DIR$/누적합/.idea/누적합.iml" filepath="$PROJECT_DIR$/누적합/.idea/누적합.iml" />
       <module fileurl="file://$PROJECT_DIR$/문자열/.idea/문자열.iml" filepath="$PROJECT_DIR$/문자열/.idea/문자열.iml" />
       <module fileurl="file://$PROJECT_DIR$/인프런 알고리즘 강의 문제풀이/.idea/문제풀이.iml" filepath="$PROJECT_DIR$/인프런 알고리즘 강의 문제풀이/.idea/문제풀이.iml" />
       <module fileurl="file://$PROJECT_DIR$/백트래킹/.idea/백트래킹.iml" filepath="$PROJECT_DIR$/백트래킹/.idea/백트래킹.iml" />
